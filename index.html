@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width= device-width, intial-scale=1.0">
+        <title>PAIMOSI</title>
+        <link rel="stylesheet" href="Style.Css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href=""><img src="images/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="index.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>WELCOME TO PAIMOSI LTD</h1>
+                <p> we are a company that favour the satisfaction of the customer</p>
+                <a href=""class="hero-btn">joins us today</a>
+            </div>
+        </section>
+
+        <!------Services----->
+        <section class="Services">
+            <h1> Services we offer</h1>
+            <p>paimosi limited comapny offers a variety of services to its customer</p>
+            <div class="row">
+                <div class="Services-col"> 
+                    <h3>Affiliate marketing</h3> 
+                    <p>we do provide assistance in affiliate makerting</p>
+                </div>
+                <div class="Services-col"> 
+                    <h3>Survey</h3> 
+                    <p>we do provide assistance in affiliate makerting</p>
+                </div>
+                <div class="Services-col"> 
+                    <h3>Forex </h3> 
+                    <p>we do provide assistance in affiliate makerting</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!----Testimonials-->
+
+        <section class="testimonials">
+            <h1> our clients feedback</h1>
+            <p>paimosi limited comapny offers a variety of services to its customer</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/Mosigo.jpg">
+                    <div>
+                        <p>
+                            this company deserves a five star rating , their services are at top notch<br> don't doubt their services.
+                        </p>
+                        <h3>Emmanuel Mosigo </h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/brown.jpg">
+                    <div>
+                        <p>
+                            this company deserves a five star rating , their services are at top notch<br> don't doubt their services.
+                        </p>
+                        <h3>brown </h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!---footer-->
+        <section class="footer">
+            <h4>About us</h4>
+            <p> we are a company that varies the customer's satisfaction with high regard </p>
+           <div class="icons">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section> 
+<!------ javascript for toggle ----->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+
+        </script>
+    </body>
+</html>

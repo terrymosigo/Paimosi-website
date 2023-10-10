@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width= device-width, intial-scale=1.0">
+        <title>PAIMOSI</title>
+        <link rel="stylesheet" href="Style.Css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href=""><img src="images/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <h1>About us</h1>
+           
+        </section>
+        <!--About us content-->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>The solutions you need are right here</h1>
+                    <p>10 YEARS OF TRUST. We’ve been in business for over 10 years, which is why 4 million clients worldwide chose us.
+                        <br> Customer funds are segregated from the rest of the company’s assets for their protection, and we’re regulated in multiple jurisdictions.</p>
+                        <a href="" class="hero-btn red-btn">get started</a>
+
+
+                </div>
+                <div class="about-col">
+                    <img src="images/CollinCamerer-ShortSelling-0.2e16d0ba.fill-1600x810-c100.jpg">
+                </div>
+            </div>
+        </section>
+
+
+         <!---footer-->
+         <section class="footer">
+            <h4>About us</h4>
+            <p> we are a company that varies the customer's satisfaction with high regard </p>
+           <div class="icons">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section> 
+<!------ javascript for toggle ----->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+
+        </script>
+    </body>
+</html>
